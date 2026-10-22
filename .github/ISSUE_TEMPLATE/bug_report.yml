@@ -1,0 +1,77 @@
+name: 播放器问题
+description: 报告导入、播放、歌词、后台音频或购买问题
+title: "[问题] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请不要上传受版权保护的音乐、完整歌词、购买凭证或私人文件。
+
+  - type: input
+    id: app-version
+    attributes:
+      label: App 版本
+      description: 可在 App Store 页面或“我的”页面查看
+      placeholder: "例如：1.0 (2)"
+    validations:
+      required: true
+
+  - type: input
+    id: ios-version
+    attributes:
+      label: iOS 版本和设备型号
+      placeholder: "例如：iPhone 16 Pro，iOS 26.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 问题类型
+      options:
+        - 导入或资料库
+        - 播放或音频输出
+        - 歌词显示
+        - 后台播放或锁屏控制
+        - 购买或恢复购买
+        - 界面或其他问题
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请按顺序写出你做了什么
+      placeholder: |
+        1. 打开 App
+        2. 点击导入
+        3. 选择……
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+      placeholder: 描述你原本期望发生什么
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+      description: 如有错误提示，请提供完整文字；可附不含私人信息的截图
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我确认没有上传音乐、完整歌词、购买凭证或私人文件
+          required: true
