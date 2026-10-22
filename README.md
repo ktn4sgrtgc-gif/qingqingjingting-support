@@ -9,8 +9,8 @@
 
 预计公开地址：
 
-- 技术支持：`https://liweiqing.github.io/qingqingjingting-support/`
-- 隐私政策：`https://liweiqing.github.io/qingqingjingting-support/privacy.html`
+- 技术支持：`https://ktn4sgrtgc-gif.github.io/qingqingjingting-support/`
+- 隐私政策：`https://ktn4sgrtgc-gif.github.io/qingqingjingting-support/privacy.html`
 
 ## 发布
 
